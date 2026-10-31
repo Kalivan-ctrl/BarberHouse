@@ -1,0 +1,91 @@
+body {
+    background-color: #111111;
+    color:white;
+    text-align:center;
+    font-family:sans-serif;
+}
+
+h1{
+    font-size: 60px ;
+   text-align: center;
+   color: #D4AF37;
+}
+
+a{
+    background-color: #D4AF37;
+    color:black;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+a:hover { 
+    backgraund-color: white;
+    color: black;
+    cursor: pointer; 
+}
+
+.service {
+    backgraund-color: #222222;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width:100%;
+    max-width: 300px;
+    box-sizing:border-box;
+    border: 1px solid #D4AF37;
+}
+
+.service h3 {
+    color: #D4AF37;
+}
+   
+h2 {
+    margin-top:50px;
+    margin-bottom:25px;
+}
+
+ .barber-photo {
+    widht: 500px;
+    max-width: 100%;
+    border-radius: 15px;
+    display: block;
+    margin:20px auto;
+ }
+
+
+ @media (max-width:600px) {
+    h1 {
+        font-size: 40px;
+    }
+   
+    nav a {
+        display: inline-block;
+        padding: 8px;
+        margin: 3px;
+        front-size: 14px;
+    }
+
+ .barber-photo {
+    width: 100%;
+    height: auto;
+}
+
+.service {
+    width:90%;
+    max-width: 300px;
+    padding: 15px;
+    margin: 15px auto;
+}
+ }
+
+
+ nav a:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+ }
+
+  nav a { 
+    transition: 0.3s;
+  }
